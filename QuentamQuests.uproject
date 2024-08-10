@@ -1,13 +1,17 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.4",
+	"EngineAssociation": "{6F9F39F5-484C-28CD-FED0-08A0EF9D7EC5}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "QuentamQuests",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"GameplayAbilities",
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
